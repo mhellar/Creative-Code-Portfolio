@@ -15,31 +15,14 @@ from { width: 200px; height: 200px; }
 to { width: 100px; height: 100px; }
 }
 
-@keyframes rumbler {
-
-  15% { -webkit-transform: rotate(-5deg) }
-  16% { -webkit-transform: rotate(5deg) }
-  17% { -webkit-transform: rotate(-5deg) }
-  18% { -webkit-transform: rotate(5deg) }
-  22% { transform: scale(1.1) }
-  40% {
-    -webkit-transform: rotate(0deg);
-    -webkit-transform: scale(1)
-  }
-  100% { -webkit-transform: rotate(0deg) }
+@keyframes rumbler {; }
+  15% { -webkit-transform: translateZ(-50px) }
+  100% { -webkit-transform: rotate(50px) }
 }
 
 @-webkit-keyframes rumbler {; }
-  15% { -webkit-transform: rotate(-5deg) }
-  16% { -webkit-transform: rotate(5deg) }
-  17% { -webkit-transform: rotate(-5deg) }
-  18% { -webkit-transform: rotate(5deg) }
-  22% { transform: scale(1.1) }
-  40% {
-    -webkit-transform: rotate(0deg);
-    -webkit-transform: scale(1)
-  }
-  100% { -webkit-transform: rotate(0deg) }
+  15% { -webkit-transform: translateZ(-50px) }
+  100% { -webkit-transform: rotate(50px) }
 }
 
 .rumble{
@@ -52,13 +35,26 @@ to { width: 100px; height: 100px; }
 .effect{
 color: #fff;
 text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff2d95, 0 0 30px #ff2d95, 0 0 40px #ff2d95, 0 0 50px #ff2d95, 0 0 75px #ff2d95;
-letter-spacing: 5px }
+letter-spacing: 5px
+;}
+
+.layer1{
+top: 0;
+;}
 
 .effect2{
 color: rgba(0, 168, 255, 0.5);
 text-shadow: 3px 3px 0 rgba(255, 0, 180, 0.5);
 letter-spacing: 0 }
 
+.effect3{
+color: #00A0D9;
+cursor: pointer;
+text-shadow: 1px 1px 3px #00A0D9, -1px -1px 3px #00A0D9;
+-webkit-transition: all .5s ease-out;
+-moz-transition: all .5s ease-out;
+-o-transition: all .5s ease-out;
+transition: all .5s ease-out }
 
 @-webkit-keyframes bounce {
 0% { top: 30px; }
@@ -109,11 +105,8 @@ letter-spacing: 0 }
 }
 
 .slide{
-    position: absolute;
-    left: 200px;
-    top: 400px;
-    -webkit-animation: slider 10s linear infinite;
-    animation: slider 10s linear infinite;
+    -webkit-animation: slider 120s linear infinite;
+    animation: slider 120s linear infinite;
     -webkit-animation-direction:alternate;
     animation-direction:alternate;
 }
