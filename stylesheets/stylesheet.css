@@ -23,9 +23,7 @@ color: rgba(0, 168, 255, 0.5);
 text-shadow: 3px 3px 0 rgba(255, 0, 180, 0.5);
 letter-spacing: 0 }
 
-.blueguy{
-
-  }
+.
 
   @-webkit-keyframes slide {
     from{
@@ -42,41 +40,23 @@ letter-spacing: 0 }
 }
 
 @-webkit-keyframes bounce {
-0% { top: 4px; }
+0% { top: 6px; }
+0% {transform: scale(1)}
 100% { top: 0; }
-0% { bottom: 4px; }
+
+0% { bottom: 6px; }
 100% { bottom: 0; }
+0
 }
 
 @keyframes bounce {
-0% { top: 4px; }
+0% { top: 6px; }
 100% { top: 0; }
-0% { bottom: 4px; }
+0% { bottom: 6px; }
 100% { bottom: 0; }
 }
 
-@-webkit-keyframes fader {
-    0%   {background: red; left:0px; top:0px;}
-    25%  {background: yellow; left:200px; top:0px;}
-    50%  {background: blue; left:200px; top:200px;}
-    75%  {background: green; left:0px; top:200px;}
-    100% {background: red; left:0px; top:0px;}
-}
 
-/* Standard syntax */
-@keyframes fader {
-    0%   {background: red; left:0px; top:0px;}
-    25%  {background: yellow; left:200px; top:0px;}
-    50%  {background: blue; left:200px; top:200px;}
-    75%  {background: green; left:0px; top:200px;}
-    100% {background: red; left:0px; top:0px;}
-}
-
-.fader{
-
-    -webkit-animation: bounce 5s linear infinite;
-    animation: bounce 5s linear infinite;
-}
 
 
 .bounce{
