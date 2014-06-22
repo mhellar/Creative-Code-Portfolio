@@ -1,6 +1,6 @@
 .face {
     -webkit-animation: shrinkGrow 2s; /* Chrome, Safari, Opera */
-    animation: shrinkGrow 2s;
+    animation: shrinkGrow 10s;
 }
 
 @-webkit-keyframes shrinkGrow {
@@ -90,7 +90,17 @@ letter-spacing: 0 }
 .slide{
     position: absolute;
     left: 200px;
-    top: 500px;
+    top: 400px;
+    -webkit-animation: slider 10s linear infinite;
+    animation: slider 10s linear infinite;
+    -webkit-animation-direction:alternate;
+    animation-direction:alternate;
+}
+
+.facemove{
+    position: absolute;
+    left: 350px;
+    top: 300px;
     -webkit-animation: slider 10s linear infinite;
     animation: slider 10s linear infinite;
     -webkit-animation-direction:alternate;
@@ -99,8 +109,8 @@ letter-spacing: 0 }
 
 .slide3{
     position: absolute;
-    left: 600px;
-    top: 250px;
+    left: 400px;
+    top: 150px;
     -webkit-animation: slider 10s linear infinite;
     animation: slider 10s linear infinite;
     -webkit-animation-direction:alternate;
@@ -108,18 +118,18 @@ letter-spacing: 0 }
 }
 
 .slide2{
-    -webkit-animation: slider 5s linear infinite;
-    animation: slider 5s linear infinite;
+    -webkit-animation: slider 4s linear infinite;
+    animation: slider 4s linear infinite;
     -webkit-animation-direction:alternate;
     animation-direction:alternate;
 }
 
 .slide4{
     position: absolute;
-    left: 600px;
+    left: 150px;
     top: 300px;
-    -webkit-animation: slider 10s linear infinite;
-    animation: slider 10s linear infinite;
+    -webkit-animation: slider 3s linear infinite;
+    animation: slider 3s linear infinite;
     -webkit-animation-direction:alternate;
     animation-direction:alternate;
 }
