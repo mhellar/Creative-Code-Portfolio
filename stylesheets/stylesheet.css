@@ -89,7 +89,7 @@ letter-spacing: 0 }
 
 .slide{
     position: absolute;
-    left: 300px;
+    left: 200px;
     top: 500px;
     -webkit-animation: slider 10s linear infinite;
     animation: slider 10s linear infinite;
@@ -99,8 +99,8 @@ letter-spacing: 0 }
 
 .slide3{
     position: absolute;
-    left: 500px;
-    top: 500px;
+    left: 600px;
+    top: 250px;
     -webkit-animation: slider 10s linear infinite;
     animation: slider 10s linear infinite;
     -webkit-animation-direction:alternate;
@@ -110,6 +110,16 @@ letter-spacing: 0 }
 .slide2{
     -webkit-animation: slider 5s linear infinite;
     animation: slider 5s linear infinite;
+    -webkit-animation-direction:alternate;
+    animation-direction:alternate;
+}
+
+.slide4{
+    position: absolute;
+    left: 600px;
+    top: 300px;
+    -webkit-animation: slider 10s linear infinite;
+    animation: slider 10s linear infinite;
     -webkit-animation-direction:alternate;
     animation-direction:alternate;
 }
