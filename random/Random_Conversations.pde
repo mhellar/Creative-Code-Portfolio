@@ -5,7 +5,7 @@
 
 void setup() {
   size(540, 220);
-  frameRate(2);
+  frameRate(1);
     eyearray[0] = loadImage("eye1.jpg");
     eyearray[1] = loadImage("eye2.jpg");
     eyearray[2] = loadImage("eye3.jpg");
@@ -63,19 +63,18 @@ void setup() {
 void draw() {
    int r = (int) random(0, 5);
     int r1 = (int) random(0, 13);
-    
-    
+
     background(255);
     scale(0.75);
     pushMatrix();
-    translate(170,0);
-    int r2 = (int) random(0, 7);
-    image(bubblearray[r2], 0, 0);
-    popMatrix();
     pushMatrix();
     image( eyearray[r1], 0, 0);
     image( nosearray[r], 15, 90);
     image( moutharray[r1], 0, 150);
+    popMatrix();
+    translate(170,0);
+    int r2 = (int) random(0, 12);
+    image(bubblearray[r2], 0, 0);
     popMatrix();
     r = (int) random(0, 5);
     r1 = (int) random(0, 10);
