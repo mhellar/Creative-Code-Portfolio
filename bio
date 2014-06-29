@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mark's Creative Code Page</title>
+
+  <!-- Bootstrap -->
+  <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
+  <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="stylesheets/standardize.css">
+  <link rel="stylesheet" href="stylesheets/index-grid.css">
+  <link rel="stylesheet" href="stylesheets/index.css">
+  <link rel="stylesheet" href="stylesheets/stylesheet.css">
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body class="body index clearfix">
+  <!-- Standard button -->
+  <ul class="nav nav-pills">
+    <li class="active"><a href="index.html">Home</a>
+    </li>
+    <li><a href="projects.html">Projects</a>
+    </li>
+    <li><a href="bio.html">Bio</a>
+    </li>
+  </ul>
+  <div class="container">
+    <div class="col-lg-8 col-lg-offset-2">
+
+
+
+    <div class="row">
+      <div class="col-xs-6 col-sm-4">
+        <span class="glyphicon glyphicon-align-right"><span class="glyphicon glyphicon-eye-open fa-spin effect"></span><span class="glyphicon glyphicon-eye-open"></span></span><span class="glyphicon glyphicon-align-left"></span>
+        <br><span class="glyphicon glyphicon-copyright-mark" style="margin-left:20px;"></span>
+        <br>
+
+        <span class="glyphicon glyphicon-hand-left slide2"></span><span class="glyphicon glyphicon-hand-right" style="margin-left:30px;"></span>
+
+      </div>
+      <div class="col-xs-6 col-sm-4"><span class="glyphicon glyphicon-align-right effect rumble"><span class="glyphicon glyphicon-eye-open"></span><span class="glyphicon glyphicon-eye-open"></span></span><span class="glyphicon glyphicon-align-left"></span>
+        <br><span class="glyphicon glyphicon-copyright-mark" style="margin-left:20px;"></span>
+        <br>
+        <span class="glyphicon glyphicon-hand-left"></span><span class="glyphicon glyphicon-hand-right" style="margin-left:30px;"></span>
+
+      </div>
+      <!-- Optional: clear the XS cols if their content doesn't match in height -->
+      <div class="clearfix visible-xs"></div>
+      <div class="col-xs-6 col-sm-4 bounce">
+        <span class="glyphicon glyphicon-align-right"><span class="glyphicon glyphicon-eye-open effect2"></span><span class="glyphicon glyphicon-eye-open"></span></span><span class="glyphicon glyphicon-align-left"></span>
+        <br><span class="glyphicon glyphicon-copyright-mark" style="margin-left:20px;"></span>
+        <br>
+        <span class="glyphicon glyphicon-hand-left"></span><span class="glyphicon glyphicon-hand-right blueguy" style="margin-left:30px;"></span>
+
+      </div>
+    </div>
+    <div id="logo">
+    <span class="glyphicon glyphicon-align-right effect2"><span class="glyphicon glyphicon-eye-open"></span><span class="glyphicon glyphicon-eye-open"></span></span><span class="glyphicon glyphicon-align-left"></span>
+    <br><span class="glyphicon glyphicon-copyright-mark" style="margin-left:20px;"></span>
+    <br>
+    <span class="glyphicon glyphicon-hand-left blueguy"></span><span class="glyphicon glyphicon-hand-right" style="margin-left:30px;"></span>
+    </div>
+
+    <div class="slide">
+    <i class="fa fa-cubes face  fa-spin "></i><i class="fa fa-cubes fa-spin  effect2"></i><i class="fa fa-cubes face  fa-spin "></i><br><i class="fa fa-cubes face  fa-spin "></i><i class="fa fa-cubes face  fa-spin  bounceeffect2"></i><i class="fa fa-cubes face  fa-spin "></i>
+    <i class="fa fa-cubes  fa-spin "></i><i class="fa fa-cubes face  fa-spin  effect2"></i><i class="fa fa-cubes fa-spin "></i><br><i class="fa fa-cubes face  fa-spin "></i><i class="fa fa-cubes face  fa-spin  bounceeffect2"></i><i class="fa fa-cubes face  fa-spin "></i>
+    <i class="fa fa-cubes face  fa-spin "></i><i class="fa fa-cubes fa-spin  effect2"></i><i class="fa fa-cubes face  fa-spin "></i><br><i class="fa fa-cubes face  fa-spin "></i><i class="fa fa-cubes face  fa-spin  bounceeffect2"></i><i class="fa fa-cubes face  fa-spin "></i>
+    <span class="glyphicon glyphicon-align-right"><span class="glyphicon glyphicon-eye-open effect2"></span><span class="glyphicon glyphicon-eye-open"></span></span><span class="glyphicon glyphicon-align-left"></span>
+    <br><span class="glyphicon glyphicon-copyright-mark" style="margin-left:20px;"></span>
+    <br>
+    <span class="glyphicon glyphicon-hand-left"></span><span class="glyphicon glyphicon-hand-right blueguy" style="margin-left:30px;"></span>
+  </div>
+
+  <div class="slide effect">
+  <i class="fa fa-cubes face  fa-spin "></i><i class="fa fa-cubes  fa-spin  effect2"></i><i class="fa fa-cubes face  fa-spin "></i><br><i class="fa fa-cubes face  fa-spin "></i><i class="fa fa-cubes face  fa-spin  bounceeffect2"></i><i class="fa fa-cubes face  fa-spin "></i>
+  <i class="fa fa-cubes face  fa-spin "></i><i class="fa fa-cubes  fa-spin  effect2"></i><i class="fa fa-cubes  fa-spin "></i><br><i class="fa fa-cubes face  fa-spin "></i><i class="fa fa-cubes face  fa-spin  bounceeffect2"></i><i class="fa fa-cubes face  fa-spin "></i>
+  <i class="fa fa-cubes face  fa-spin "></i><i class="fa fa-cubes face  fa-spin  effect2"></i><i class="fa fa-cubes face  fa-spin "></i><br><i class="fa fa-cubes face  fa-spin "></i><i class="fa fa-cubes face  fa-spin  bounceeffect2"></i><i class="fa fa-cubes face  fa-spin "></i>
+  <span class="glyphicon glyphicon-align-right"><span class="glyphicon glyphicon-eye-open effect2"></span><span class="glyphicon glyphicon-eye-open"></span></span><span class="glyphicon glyphicon-align-left"></span>
+</div>
+
+<div class="slide3 effect2">
+<i class="fa fa-cubes face  fa-spin "></i><i class="fa fa-cubes  fa-spin  effect2"></i><i class="fa fa-cubes face  fa-spin "></i><br><i class="fa fa-cubes face  fa-spin "></i><i class="fa fa-cubes face  fa-spin  bounceeffect2"></i><i class="fa fa-cubes face  fa-spin "></i>
+<i class="fa fa-cubes face  fa-spin "></i><i class="fa fa-cubes fa-spin  effect2"></i><i class="fa fa-cubes fa-spin "></i><br><i class="fa fa-cubes face  fa-spin "></i><i class="fa fa-cubes face  fa-spin  bounceeffect2"></i><i class="fa fa-cubes face  fa-spin "></i>
+<i class="fa fa-cubes face  fa-spin "></i><i class="fa fa-cubes  fa-spin  effect2"></i><i class="fa fa-cubes face  fa-spin "></i><br><i class="fa fa-cubes face  fa-spin "></i><i class="fa fa-cubes face  fa-spin  bounceeffect2"></i><i class="fa fa-cubes face  fa-spin "></i>
+<span class="glyphicon glyphicon-align-right"><span class="glyphicon glyphicon-eye-open effect2"></span><span class="glyphicon glyphicon-eye-open"></span></span><span class="glyphicon glyphicon-align-left"></span>
+</div>
+
+
+<div class="slide3 effect">
+<i class="fa fa-cubes face  fa-spin "></i><i class="fa fa-cubes  fa-spin  effect2"></i><i class="fa fa-cubes face  fa-spin "></i><br><i class="fa fa-cubes face  fa-spin "></i><i class="fa fa-cubes face  fa-spin  bounceeffect2"></i><i class="fa fa-cubes face  fa-spin "></i>
+<i class="fa fa-cubes face  fa-spin "></i><i class="fa fa-cubes fa-spin  effect2"></i><i class="fa fa-cubes fa-spin "></i><br><i class="fa fa-cubes face  fa-spin "></i><i class="fa fa-cubes face  fa-spin  bounceeffect2"></i><i class="fa fa-cubes face  fa-spin "></i>
+<i class="fa fa-cubes face  fa-spin "></i><i class="fa fa-cubes  fa-spin  effect2"></i><i class="fa fa-cubes  fa-spin "></i><br><i class="fa fa-cubes face  fa-spin "></i><i class="fa fa-cubes face  fa-spin  bounceeffect2"></i><i class="fa fa-cubes face  fa-spin "></i>
+<span class="glyphicon glyphicon-align-right"><span class="glyphicon glyphicon-eye-open effect2"></span><span class="glyphicon glyphicon-eye-open"></span></span><span class="glyphicon glyphicon-align-left"></span>
+</div>
+
+<div class="slide effect2">
+<i class="fa fa-cubes face  fa-spin "></i><i class="fa fa-cubes face  fa-spin  effect2"></i><i class="fa fa-cubes fa-spin "></i><br><i class="fa fa-cubes face  fa-spin "></i><i class="fa fa-cubes face  fa-spin  bounceeffect2"></i><i class="fa fa-cubes face  fa-spin "></i>
+<i class="fa fa-cubes face  fa-spin "></i><i class="fa fa-cubes face  fa-spin  effect2"></i><i class="fa fa-cubes face  fa-spin "></i><br><i class="fa fa-cubes face  fa-spin "></i><i class="fa fa-cubes face  fa-spin  bounceeffect2"></i><i class="fa fa-cubes face  fa-spin "></i>
+<i class="fa fa-cubes face  fa-spin "></i><i class="fa fa-cubes face  fa-spin  effect2"></i><i class="fa fa-cubes fa-spin "></i><br><i class="fa fa-cubes face  fa-spin "></i><i class="fa fa-cubes face  fa-spin  bounceeffect2"></i><i class="fa fa-cubes face  fa-spin "></i>
+<span class="glyphicon glyphicon-align-right"><span class="glyphicon glyphicon-eye-open effect2"></span><span class="glyphicon glyphicon-eye-open"></span></span><span class="glyphicon glyphicon-align-left"></span>
+</div>
+</div>
+<div class="face_move">
+<div class="element element-1 face"></div>
+    <div class="element element-2 face bounce slide2"></div>
+    <div class="element element-3 face"></div>
+    <div class="element element-4 face"></div>
+    <div class="element element-5 face"></div>
+    <div class="element element-6 face"></div>
+    <div class="element element-7 face"></div>
+    <div class="element element-8 face"></div>
+    <div class="element element-9 face"></div>
+    <div class="element element-10 face"></div>
+  </div>
+<div class="slide4 effect2">
+<i class="fa fa-cubes face  fa-spin "></i><i class="fa fa-cubes fa-spin  effect2"></i><i class="fa fa-cubes face  fa-spin "></i><br><i class="fa fa-cubes fa-spin "></i><i class="fa fa-cubes face  fa-spin  bounceeffect2"></i><i class="fa fa-cubes face  fa-spin "></i>
+<i class="fa fa-cubes face  fa-spin "></i><i class="fa fa-cubes face  fa-spin  effect2"></i><i class="fa fa-cubes face  fa-spin "></i><br><i class="fa fa-cubes  fa-spin "></i><i class="fa fa-cubes face  fa-spin  bounceeffect2"></i><i class="fa fa-cubes face  fa-spin "></i>
+<i class="fa fa-cubes face  fa-spin "></i><i class="fa fa-cubes  fa-spin  effect2"></i><i class="fa fa-cubes face  fa-spin "></i><br><i class="fa fa-cubes  fa-spin "></i><i class="fa fa-cubes face  fa-spin  bounceeffect2"></i><i class="fa fa-cubes face  fa-spin "></i>
+<span class="glyphicon glyphicon-align-right"><span class="glyphicon glyphicon-eye-open effect2"></span><span class="glyphicon glyphicon-eye-open"></span></span><span class="glyphicon glyphicon-align-left"></span>
+</div>
+
+<div class="slide4 effect">
+<i class="fa fa-cubes fa-spin "></i><i class="fa fa-cubes fa-spin  effect2"></i><i class="fa fa-cubes fa-spin "></i><br><i class="fa fa-cubes face  fa-spin "></i><i class="fa fa-cubes face  fa-spin  bounceeffect2"></i><i class="fa fa-cubes face  fa-spin "></i>
+<i class="fa fa-cubes face  fa-spin "></i><i class="fa fa-cubes face  fa-spin  effect2"></i><i class="fa fa-cubes face  fa-spin "></i><br><i class="fa fa-cubes face  fa-spin "></i><i class="fa fa-cubes face  fa-spin  bounceeffect2"></i><i class="fa fa-cubes face  fa-spin "></i>
+<i class="fa fa-cubes  fa-spin "></i><i class="fa fa-cubes  fa-spin  effect2"></i><i class="fa fa-cubes  fa-spin "></i><br><i class="fa fa-cubes face  fa-spin "></i><i class="fa fa-cubes face  fa-spin  bounceeffect2"></i><i class="fa fa-cubes face  fa-spin "></i>
+<span class="glyphicon glyphicon-align-right"><span class="glyphicon glyphicon-eye-open effect2"></span><span class="glyphicon glyphicon-eye-open"></span></span><span class="glyphicon glyphicon-align-left"></span>
+</div>
+
+<div class="slide4">
+<i class="fa fa-cubes fa-spin "></i><i class="fa fa-cubes face  fa-spin  effect2"></i><i class="fa fa-cubes  fa-spin "></i><br><i class="fa fa-cubes face  fa-spin "></i><i class="fa fa-cubes face  fa-spin  bounceeffect2"></i><i class="fa fa-cubes face  fa-spin "></i>
+<i class="fa fa-cubes face  fa-spin "></i><i class="fa fa-cubes  fa-spin  effect2"></i><i class="fa fa-cubes face  fa-spin "></i><br><i class="fa fa-cubes face  fa-spin "></i><i class="fa fa-cubes face  fa-spin  bounceeffect2"></i><i class="fa fa-cubes face  fa-spin "></i>
+<i class="fa fa-cubes  fa-spin "></i><i class="fa fa-cubes  fa-spin  effect2"></i><i class="fa fa-cubes  fa-spin "></i><br><i class="fa fa-cubes face  fa-spin "></i><i class="fa fa-cubes face  fa-spin  bounceeffect2"></i><i class="fa fa-cubes face  fa-spin "></i>
+<span class="glyphicon glyphicon-align-right"><span class="glyphicon glyphicon-eye-open effect2"></span><span class="glyphicon glyphicon-eye-open"></span></span><span class="glyphicon glyphicon-align-left"></span>
+</div>
+</div>
+</div>
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>
